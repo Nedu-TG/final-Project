@@ -165,3 +165,586 @@ header nav ul {
 .categories_flex img {
     border-radius: 15px;
 }
+
+
+.website-wrapper{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+}
+.section-wrapper{
+    width: 80%;
+    height: auto;
+    border: none;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+
+}
+
+.clinical-equipment__section{
+    background-image: linear-gradient(to right bottom, rgba(84, 205, 245, 0.565),rgba(223, 246, 254, 0.565));
+    justify-content: left;
+    text-align: left;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* .clinical-equipment__section img{
+    max-width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+} */
+
+#clinical-header{
+    justify-content: left;
+    text-align: left;
+    margin: 20px;
+
+}
+
+#clinical-text{
+    justify-content: left;
+    text-align: left;
+    margin: 20px;  
+}
+
+.shopbtn{
+    justify-content: left;
+    text-align: left;
+    margin: 20px; 
+    padding: 15px 25px; 
+    background-color:  rgba(24, 94, 235, 0.929);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+   text-decoration: none;
+   transition-duration: 0.4s;
+   font-size: 18px;
+}
+
+  .shopbtn:hover {
+    background-color: #1e67e5; 
+    color: white;
+  }
+
+
+
+
+
+  .section-wrapper {
+    width: 80%;
+    height: auto;
+    border: none;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.clinical-equipment__section {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.clinical-equipment__section img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 5%;
+}
+
+#clinical-header {
+    margin: 20px;
+}
+
+#clinical-text {
+    margin: 20px;
+}
+
+.shopbtn {
+    margin: 20px;
+    padding: 15px 25px;
+    background-color: rgb(51, 51, 248);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-size: 13px;
+}
+
+.shopbtn:hover {
+    background-color: #1e67e5;
+    color: white;
+}
+
+
+
+  .popular-products__wrapper{
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+         border: none;
+         gap: 10px;
+        border-radius: 5px;
+        margin: 10% auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding-bottom: 5%;
+        margin-left: 10%;
+        margin-right: auto;
+        background-color: white;
+
+  }
+
+  .popular-text__wrapper{
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  #popular-text{
+   margin-left: 5%;
+   margin-top: 5%;
+   font-size: 20px;
+   font-weight: bold;
+
+  }
+
+  .products-wrapper{
+    flex-wrap: wrap;
+
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+
+
+  }
+
+  .products-gallery__wrapper{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+
+
+  }
+  .products-gallery__wrapper img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover; 
+    flex-wrap: wrap;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  #product-name{
+    font-size: 15px;
+   font-weight: bold;
+   margin: 5px;
+   margin-top: 20px;
+
+  }
+
+  .products-desc__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   margin-top: 20px;
+   flex-wrap: wrap;
+
+
+  }
+
+  #product-price{
+    font-size: 14px;
+    /* font-weight: bold; */
+   margin: 5px;
+
+
+  }
+
+  .rating-wrapper{
+    display: flex;
+
+  }
+  .rating-wrapper i{
+    display: flex;
+   color: goldenrod;
+
+
+  }
+
+  #product-rating{
+    font-size: 14px;
+   margin: 5px;
+   color: goldenrod;
+  }
+
+
+  .recent-products__wrapper {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    border: none;
+    gap: 10px;
+    border-radius: 5px;
+    margin: 5% auto; 
+    margin-left: 10%;
+    margin-right: auto;
+    background-color: white;
+}
+
+.recent-text__wrapper {
+    margin-left: 5%; 
+    margin-bottom: 10px; /* Added margin-bottom to bring text closer */
+}
+
+#recent-text {
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recent-wrapper {
+    flex-wrap: wrap;
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.recent-gallery__wrapper {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.recent-gallery__wrapper img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+#recent-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.recent-desc__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#recent-price {
+    font-size: 14px;
+    margin: 5px;
+}
+
+#recent-rating {
+    font-size: 14px;
+    margin: 5px;
+}
+
+
+  .footer-wrapper{
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+   flex-wrap: wrap;
+   background-color: #051115;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 10px;
+
+  }
+  .footer-content__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    /* gap: 5px; */
+    width: 90%;
+    height: auto;
+   flex-wrap: wrap;
+   background-color: #051115;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 8%;
+   padding-right: 8%;
+   line-height: 30px;
+   /* color: #f0f0f0; */
+  }
+
+  .doctris-wrapper{
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+
+  }
+
+  .doctris-wrapper img{
+      align-items: left;
+      padding: 2px; 
+      object-fit: cover;   
+  }
+  #doctris-text{
+      align-items: left;
+      padding: 2px; 
+      color: #f0f0f0;
+      font-weight: bold;
+      white-space: nowrap;
+      font-size: 15px;
+  }
+
+  .footer-nav__wrapper{
+    /* margin-top: 25px; */
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 60%;
+    height: auto;
+    display: flex;
+    /* margin-right: 60px; */
+    justify-content: space-evenly;
+  }
+
+  .company-wrapper{
+    display: block;
+    flex-wrap: wrap;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+  }
+
+  #company{
+   text-align: center;
+   justify-content: center;
+   font-size: 17px;
+   font-weight: bold;
+   color: #f0f0f0;
+
+  }
+
+  .chevron-wrapper{
+    padding: 2px;
+    /* gap: 2px; */
+    justify-content: space-around;
+  }
+
+  .chevron-wrapper i{
+    padding: 2px;
+     font-size: 12px;
+  }
+  .chevron-wrapper a{
+    font-size: 15px;
+    /* padding: 2px; */
+  }
+
+   .company-wrapper ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding: 2px;
+    color: #f0f0f0;
+
+  }
+
+  .department-wrapper{
+    display: block;
+    flex-wrap: wrap;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+  }
+
+  #department{
+   text-align: center;
+   justify-content: center;
+   font-size: 17px;
+   font-weight: bold;
+   color: #f0f0f0;
+
+  }
+
+   .department-wrapper ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding: 2px;
+    color: #f0f0f0;
+
+  }
+
+  .psycho{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+  .psycho i{
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 3px; */
+    margin-top: 7px;
+  }
+
+
+  .contact-wrapper{
+    display: block;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    /* justify-content: space-evenly; */
+  }
+
+  #contactus{
+   text-align: center;
+   justify-content: center;
+   font-size: 17px;
+   font-weight: bold;
+   color: #f0f0f0;
+
+  }
+
+   .contact-wrapper ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin-left:  auto;
+    margin-right:  auto;
+    padding: 2px;
+    color: #f0f0f0;
+
+  }
+  .contact-wrapper a{
+    margin-left: 10px;
+
+  }
+
+
+  .social-links__wrapper ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: left; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  #h-line{
+    width: 100%;
+    flex-wrap: wrap;
+    border: 1px solid rgb(180, 179, 179);
+    margin-top: 10%;
+  }
+
+  .reserved-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    /* padding-left: 20px; */
+    justify-content: space-between;
+
+
+  }
+
+  .date-wrapper{
+    width: 30%;
+    height: auto;
+    margin-left: 9%;
+    margin-right: 7%;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    /* padding-left: 5px; */
+  }
+
+  #date{
+    color: #f0f0f0;
+  }
+
+  .terms-wrapper{
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    /* padding-right: 10%; */
+
+  }
+
+  .terms-wrapper ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* text-align: left; */
+    margin-left: auto;
+    margin-right:  5%;
+    margin-top: 2%;
+    display: flex;
+    gap: 10px;
+    color: #f0f0f0;
+
+  }
